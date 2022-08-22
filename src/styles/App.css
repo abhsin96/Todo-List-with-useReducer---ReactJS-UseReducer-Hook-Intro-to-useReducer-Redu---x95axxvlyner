@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #D36B00;
+}
+
+.Navbar{
+    padding: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #42032C;
+}
+
+.logo{
+    font-size: 50px;
+    color: #D36B00;
+}
+
+.theme{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #D36B00;
+}
+
+#todo-form{
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#todo-input{
+    width: 300px;
+    height: 35px;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 10px;
+    background-color: #E6D2AA;
+}
+
+.addBtn{
+    padding: 5px 20px;
+    border-radius: 10px;
+    background-color: #42032C;
+    color: #D36B00;
+    font-size: 18px;
+}
+
+.todoList{
+    padding: 5px 40px;
+    display: grid;
+    grid-template-columns: repeat(3,30vw);
+    gap: 20px;
+}
+
+.todo{
+    background-color: #42032C;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    color: #F1EFDC;
+}
+
+.deleteButton{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #D36B00;
+    font-size: 15px;
+}
