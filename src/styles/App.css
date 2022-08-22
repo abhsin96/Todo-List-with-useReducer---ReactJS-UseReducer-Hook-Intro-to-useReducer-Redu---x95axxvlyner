@@ -63,13 +63,17 @@ body{
 .todo{
     background-color: #42032C;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
+    height: 250px;
     padding: 10px;
     border-radius: 20px;
     color: #F1EFDC;
+}
+
+.todo-title{
+    font-size: 20px;
 }
 
 .deleteButton{
@@ -77,4 +81,6 @@ body{
     border-radius: 10px;
     background-color: #D36B00;
     font-size: 15px;
+    color: #E6D2AA;
+    font-weight: 1000;
 }
