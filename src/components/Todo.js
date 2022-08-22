@@ -4,7 +4,7 @@ const Todo = ({ title, id, handleDelete }) => {
   return (
     <div className="todo">
       <div className="todo-title">{title}</div>
-      <button className="deleteButton" onClick={() => handleDelete(id)}>
+      <button className="todo-delete" onClick={() => handleDelete(id)}>
         Delete
       </button>
     </div>
